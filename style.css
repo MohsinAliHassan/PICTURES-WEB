@@ -1,0 +1,31 @@
+
+.pic{
+
+
+
+    width: 50%;
+    height: 500px;
+    display: flex;
+    gap: 5px;
+}
+.pic img{
+
+
+    width: 10% ;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid  darkslateblue;
+    transition: all ease-out 1s;
+    aspect-ratio: 1/1;
+
+}
+.pic img:hover{
+    width:100% ;
+    scale: 1.1;
+}
+body{
+    background-color: rgb(34, 30, 30);
+    color: beige;
+    text-decoration: line-through;
+}
